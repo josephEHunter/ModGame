@@ -75,9 +75,9 @@ let perscholas= new BossEnemy("Perscholas")
   0, 1, 1, 1, 0, 1, 1, 1, 1, 0,
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
   ];
-    for (let i = 0; i<fisrtDungeonMap.length; i+=20){
-      let 1 = new Enemy()
-    }
+//     for (let i = 0; i<fisrtDungeonMap.length; i+=20){
+//       let 1 = new Enemy()
+//     }
 
   let controls = {
     37: false,
