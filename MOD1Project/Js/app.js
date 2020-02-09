@@ -3,12 +3,12 @@ let player;
 
 function Player (class, value, value, value) {
 this.classType= classType;
-this.hp= (Math.floor(Math.random() *2)+4);
-this.mp= Math.random();
-this.str= (Math.floor(Math.random() *10)+5);
-this.dex=value;
-this.int=value;
-this.xp=value;
+this.hp= hp;
+this.mp= mp;
+this.str= str;
+this.dex=dex;
+this.int=int;
+this.xp=xp;
 
 };
 let warrior= new Player("Warrior")

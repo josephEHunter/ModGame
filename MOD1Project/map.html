@@ -2,16 +2,87 @@
 <html lang="en" dir="ltr">
   <head>
 
-  
+
     <title></title>
 
 
-<script type="text/javascript" src="/Users/student_139/Desktop/MOD1Project/Js/map.js"></script>
+<script type="text/javascript" src="Js/map.js"></script>
 
 
   </head>
+
   <body>
+
+    <div id="startGame"></div>
+    <div id="interface"></div>
+    <div id="preGame">
+
+      <div id="choiceScreentop">
+
+        <h2>choose your Character</h2>
+
+      </div>
+
+
+      <div id="choices">
+
+        <a href="#" onclick="gameManager.setGameStart(`Warrior`)">
+          <img src="" alt="">
+          <div id="">
+            <h3>Warrior</h3>
+          </div>
+
+        <a href="#" onclick="gameManager.setGameStart(`Theif`)">
+          <img src="" alt="">
+          <div id="">
+            <h3>Theif</h3>
+          </div>
+
+
+        <a href="#" onclick="gameManager.setGameStart(`Mage`)">
+          <img src="" alt="">
+          <div id="">
+          <h3>Mage</h3>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+
     <canvas id='game' width="800" height="800"></canvas>
+
+
+    <div id="battleScreen">
+      <h1>BATTLE!!!!</h1>
+      <div id="mySide">
+
+        <div id="myImg"></div>
+
+          <div id="myStats"></div>
+
+      </div>
+
+      <div id="center">
+
+        <div id="atk"></div>
+
+      </div>
+
+
+        <div id="battleScreen">
+
+          <div id="enemySide">
+
+            <div id="enemyImg"></div>
+
+              <div id="enemyStats"></div>
+
+          </div>
+
+        </div>
+
+    </div>
 
   </body>
 
